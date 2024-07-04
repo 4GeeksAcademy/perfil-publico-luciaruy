@@ -1,0 +1,138 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lucía
+    last_name: Ruy Martínez
+    
+    # Define yourself in 4-5 words
+    motto: I like technology
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de Arquitectura y Analista Programador. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: C:\Users\Usuario\Downloads\Lucía Ruy.jpeg
+    # Contact Information
+    email: luciaruy1@gmail.com
+    phone: +598 99 250 184 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/luciaruymartinez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LuciaRuy
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    # Interests or hobbies
+    interests:
+      - item: Hockey
+
+# Your previous education
+education:
+    - degree: Arquitectura
+      university: Facultad de Arquitectura Diseño y Urbanismo
+      # optional
+      university_logo: https://www.fadu.edu.uy/wp-content/uploads/2018/12/fadu-logo-uy.png
+      time: 2014 - actualidad
+      
+    - degree: Analista Programador
+      university: Universidad ORT Uruguay
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1765095885183356928/htBotSmv_400x400.jpg
+      time: 2023-2025
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Community Manager 
+      time: 2020 - Actualidad
+      details: |
+        • Creación de imágenes y contenido para publicaciones en feed y stories de Instagram.
+        • Edición de sitios web e-commerce.
+        • Trabajos de diseño e impresión para distintos fines.
+        • Constante comunicación e ida y vuelta con el cliente
+      company: Tecnodigital, Gustamas Ltda, Grecia Tocados y Ramos, entre otras
+    - role: Tester Junior
+      time: Febrero 2024
+      company: Foo Talent Group
+      # optional
+     
+      details: |
+        Pasantia voluntaria. Donde realice: 
+        • Plan de prueba
+        • Análisis de requerimiento
+        • Casos de prueba y reporte de errores.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
